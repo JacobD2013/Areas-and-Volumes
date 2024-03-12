@@ -5,48 +5,80 @@ Areas and volumes is a Python package that provides functions to calculate vario
 2D Variables:
 
 l = length
+
 h = height
+
 r = radius
+
 sl = side length
+
 b = base length
+
 
 3D Variables:
 
 l = length
+
 w = width
+
 h = height
+
 r = radius
+
 el = edge length
+
 b = area of the base
+
 MinR = Minor Radius
+
 MajR = Major Radius
+
 
 # Usage
 2D shapes:
 
 square(l)
+
 rectangle(l, h)
+
 circle(r)
+
 triangle(b, h)
+
 pentagon(sl)
+
 hexagon(sl)
+
 heptagon(sl)
+
 octagon(sl)
+
 nonagon(sl)
+
 decagon(sl)
 
 3D shapes:
 
 cube(l)
+
 rectangular_prism(l, w, h)
+
 sphere(r)
+
 cylinder(r, h)
+
 cone(r, h)
+
 dodecahedron(el)
+
 triangular_prism(b, h)
+
 hemisphere(r)
+
 torus(MinR, MajR)
+
 rhombicosidodecahedron(el)
+
 
 # Importing
 ```bash

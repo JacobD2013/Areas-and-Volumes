@@ -1,84 +1,112 @@
 # Areas and Volumes
-Areas and volumes is a Python package that provides functions to calculate various geometric formulas. It supports 10 2D shapes and 10 3D shapes. Please dm me on discord for help or you want me to add more shapes. blackdoe846
-
-# Variable meanings
-2D Variables:
-
-l = length
-
-h = height
-
-r = radius
-
-sl = side length
-
-b = base length
-
-
-3D Variables:
-
-l = length
-
-w = width
-
-h = height
-
-r = radius
-
-el = edge length
-
-b = area of the base
-
-MinR = Minor Radius
-
-MajR = Major Radius
-
+Areas and volumes is a Python package that provides functions to calculate various geometric formulas. It supports 25 2D shapes and 25 3D shapes. Please put an issue if you want more shapes or you need help
 
 # Usage
-2D shapes:
+##2D shapes:
+```bash
+square()
 
-square(l)
+rectangle()
 
-rectangle(l, h)
+circle()
 
-circle(r)
+triangle()
 
-triangle(b, h)
+pentagon()
 
-pentagon(sl)
+hexagon()
 
-hexagon(sl)
+heptagon()
 
-heptagon(sl)
+octagon()
 
-octagon(sl)
+nonagon()
 
-nonagon(sl)
+decagon()
 
-decagon(sl)
+undecagon()
 
-3D shapes:
+dodecagon()
 
-cube(l)
+tridecagon()
 
-rectangular_prism(l, w, h)
+tetradecagon()
 
-sphere(r)
+pentadecagon()
 
-cylinder(r, h)
+trapezoid()
 
-cone(r, h)
+ellipse()
 
-dodecahedron(el)
+polyominoes()
 
-triangular_prism(b, h)
+star()
 
-hemisphere(r)
+hemicircle()
 
-torus(MinR, MajR)
+squircle()
 
-rhombicosidodecahedron(el)
+parallelogram()
 
+square_with_equlateral_triangle_top()
+
+kite()
+
+rhombus()
+```
+##3D shapes:
+```bash
+cube()
+
+rectangular_prism()
+
+sphere()
+
+cylinder()
+
+cone()
+
+dodecahedron()
+
+triangular_prism()
+
+hemisphere()
+
+torus()
+
+rhombicosidodecahedron()
+
+pipe()
+
+capsule()
+
+tetrahedron()
+
+octahedron()
+
+icosahedron
+
+triangular_pyramid()
+
+square_pyramid()
+
+pentagon_pyramid()
+
+hexagon_pyramid()
+
+heptagon_pyramid()
+
+octagon_pyramid()
+
+nonagon_pyramid()
+
+decagon_pyramid()
+
+star_prism()
+
+steinmetz_solid()
+
+```
 
 # Importing
 ```bash

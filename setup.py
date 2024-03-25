@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='Area and Volumes',
-    version='0.1',
+    version='0.2',
     packages=find_packages(),
     description='A Python library for solving areas and formulas',
     author='Jacob D',
